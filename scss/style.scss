@@ -1,0 +1,58 @@
+@function darken-color($color, $amount) {
+  // Convertir le code hexadécimal en valeurs de rouge, vert et bleu
+  $red: red($color);
+  $green: green($color);
+  $blue: blue($color);
+
+  // Calculer les nouvelles valeurs de rouge, vert et bleu en les assombrissant
+  $new-red: $red - $amount;
+  $new-green: $green - $amount;
+  $new-blue: $blue - $amount;
+
+  // Retourner la couleur assombrie
+  @return rgb($new-red, $new-green, $new-blue);
+}
+
+// Utilisation de la fonction pour assombrir une couleur
+body {
+  background-color: darken-color(#000000, 20);
+}
+
+
+
+
+@import "bootstraps/functions";
+@import "bootstraps/variables";
+@import "bootstraps/variables-dark";
+@import "bootstraps/maps";
+@import "bootstraps/mixins";
+@import "bootstraps/utilities";
+
+
+
+
+
+// Layout & components
+@import "bootstraps/root";
+@import "bootstraps/reboot";
+@import "bootstraps/type";
+@import "bootstraps/images";
+@import "bootstraps/containers";
+@import "bootstraps/grid";
+
+@import "bootstraps/buttons";
+@import "bootstraps/nav";
+@import "bootstraps/navbar";
+@import "bootstraps/card";
+
+@import "bootstraps/helpers";
+
+@import "bootstraps/utilities/api";
+// scss-docs-end import-stack
+
+@import "projet_final_restaurant";
+
+
+@import "bootstrap/scss/bootstrap";
+
+/*# sourceMappingURL=style.css.map */
