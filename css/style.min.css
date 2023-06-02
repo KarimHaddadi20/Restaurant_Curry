@@ -9559,7 +9559,7 @@ fieldset:disabled .btn {
 }
 
 .cover-photo {
-  background-image: url("/img/cover_photo.jpg");
+  background-image: url("../img/cover_photo.jpg");
   background-size: cover;
   height: 400px;
   position: relative;
@@ -9580,7 +9580,7 @@ fieldset:disabled .btn {
 
 
 .cover-photo2 {
-  background-image: url("/img/cover_photo3.jpg");
+  background-image: url("../img/cover_photo3.jpg");
   background-size: cover;
   height: 400px;
   position: relative;
@@ -9593,7 +9593,7 @@ fieldset:disabled .btn {
 
 
 .cover-photo3 {
-  background-image: url("/img/cover_photo4.jpg");
+  background-image: url("../img/cover_photo4.jpg");
   background-size: cover;
   height: 400px;
   position: relative;
