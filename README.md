@@ -10,4 +10,3 @@ l'url du site : https://khaddadi.esd-monsite.fr/projet_final_restaurant1/index.h
 
 
 Ce dépôt contient le code source de mon projet qui vise a réaliser un site restaurant avec le théme curry
-difficulté rencontrée dans la partie carte : dans les tarifs des plats.
