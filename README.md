@@ -1,12 +1,1 @@
-# projet_final_restaurant1
-
-Nom : Haddadi
-Prénom : Karim
-Classe : Bachelor Dev Web 
-
-------------------------------------------------------------------------------------
-
-l'url du site : https://khaddadi.esd-monsite.fr/projet_final_restaurant1/index.html
-
-
-Ce dépôt contient le code source de mon projet qui vise a réaliser un site restaurant avec le théme curry
+Ce site web a été réalisé dans le cadre d'un projet de classe. Il s'agit d'un site vitrine pour un restaurant fictif, qui présente la carte, les horaires, les coordonnées et les avis clients.
